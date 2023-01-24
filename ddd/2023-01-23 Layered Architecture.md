@@ -8,7 +8,7 @@ tags: [architecture java ddd]
 
 
 # Layered Architecture?
-  
+
 - `관심사 분리(Separation of Concern)`에 따라 시스템을 유사한 관심사로 레이어를 분해하고 각각의 레이어가 하위 레이어에만 의존하도록 구성하는 아키텍처
 - `Layer Architecture`의 목적은 각 레이어들이 특정 관심사에 관련된 항목만 포함하도록 만들어 시스템의 결합도를 낮추고 재사용성, 유지보수성을 향상시키는 것
 - `DDD(Domain Driven Design)`에서는 주로 아래의 4가지로 분류
@@ -28,7 +28,28 @@ tags: [architecture java ddd]
 
 #### Domain Layer
 - 해당 레이어는 고수준의 비즈니스 논리를 해결하고, 저수준의 기술 구현 및 외부 인프라에 의존하지 않도록 구성
-- 해당 ㄹ
+- 해당 레이어를 추상적으로 설계할수록 단위 테스트 및 리팩토링 난이도가 쉬워짐
+
+#### Infrastructure Layer
+- Data Access나 Ioc 컨테이너등 상위 계층을 지원하는 역할
+	- 환경 구성(Spring IoC Container)
+	- 보안(Spring Security)
+	- Data Access(Hibernate, Mybatis)
+	- 메시지 큐(Rabbit MQ, Kafka, SQS)
+	- 메일
+
+
+## 해당 아키텍처를 적용하면 좋은 경우
+- 프로젝트 도메인이 복잡하지 않은 경우
+- 확장성보다는 일관성을 가져가는 게 목표인 경우
+- 소규모 팀인 경우
+
+
+## 단점
+- 프로젝트가 커질수록 확장성이 떨어짐
+- 추후 각 레이어들로 분리된 관심사외 다른 관심사가 발견된 경우 패키지 분리 및 코드 배치가 어려움
+- 성능적인 이점을 갖긴 어려움
+
 
 
 ## 4-Tier Architecture
