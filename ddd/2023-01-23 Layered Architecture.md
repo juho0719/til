@@ -9,9 +9,11 @@ tags: [architecture java ddd]
 
 # Layered Architecture?
   
-- 구성되는 계층의 숫자에 따라 N-계층 아키텍처라고도 함 (`N-tier Architecture`)
-- 각 계층별 역할과 관심사로 구분
+- `관심사 분리(Separation of Concern)`에 따라 시스템을 유사한 관심사로 레이어를 분해하고 각각의 레이어가 하위 레이어에만 의존하도록 구성하는 아키텍처
+- `Layer Architecture`의 목적은 각 레이어들이 특정 관심사에 관련된 항목만 포함하도록 만들어 시스템의 결합도를 낮추고 재사용성, 유지보수성을 향상시키는 것
+- `Presentation Layer`, `Application Layer`, `Domain Layer`, `Infrastructure`
 - `Layered Architecture`의 가장 강력한 기능은 `관심사 분리(Separation of Concern)`
+- 각 계층은 다른 계층과 상호작용하지만, 다른 계층에서 발생하는 로직에는 신경쓰지 않아도 됨
 - 높은 유지보수성과 쉬운 테스트는 장점
   
 
