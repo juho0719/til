@@ -49,4 +49,6 @@ graph
 - GUI의 MVC아키텍처를 완전히 내포하며, `Presnter`, `View`, `Controller`가 모두 여기에 속함
 
 ### Infrastructure
-- 모든 I/O components (*
+- 모든 `I/O components (UI, DB, frameworks, devices)`가 있는 곳
+- 변화될 가능성이 매우 높기 때문에 안정적인 `Domain`과는 확실히 분리 되어 있고, 비교적 쉽게 변화되기 때문에 다른 `components`과 쉽게 교환됨
+
