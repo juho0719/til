@@ -168,8 +168,9 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "9336167dca6b0c4c",
+  "active": "5267ddb85523b708",
   "lastOpenFiles": [
-    "ddd/2023-01-23 Layered Architecture.md"
+    "ddd/2023-01-23 Layered Architecture.md",
+    "ddd/2023-01-25 Clean Architecture.md"
   ]
 }

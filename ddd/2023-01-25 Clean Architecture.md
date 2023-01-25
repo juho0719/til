@@ -1,4 +1,11 @@
 
+---
+title: Layered Architecture
+date: 2023-01-25 18:50:00 +09:00
+categories: [Blog, Architecture, DDD]
+tags: [architecture java ddd]
+---
+
 # Clean Architecture
 ```mermaid
 graph
@@ -23,4 +30,6 @@ graph
 
 - `Dependency Rule`은 비즈니스 로직을 담당하는 코드들이 DB, Web같이 구체적인 세부사항에 의존하지 않고 독립적으로 실행되어야 한다는 규칙
 - `Domain`은 `infrastructure`에 대해서 아무것도 모름
-- 
+
+![clean_architecture](https://d.pr/i/wSpn2w)
+
