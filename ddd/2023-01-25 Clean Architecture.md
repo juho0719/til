@@ -31,5 +31,22 @@ graph
 - `Dependency Rule`은 비즈니스 로직을 담당하는 코드들이 DB, Web같이 구체적인 세부사항에 의존하지 않고 독립적으로 실행되어야 한다는 규칙
 - `Domain`은 `infrastructure`에 대해서 아무것도 모름
 
-![clean_architecture](https://d.pr/i/wSpn2w)
 
+
+![clean_architecture](../img/clean_architecture.png)
+
+
+### Entities
+- 애플리케이션에서 핵심적인 기능인 `Business Rule`들을 담고 있음
+
+### Use Cases
+- 시스템이 어떻게 자동화 될 것인지에 대해서 정의하고 애플리케이션의 행위를 결정
+- `Entities`에 의존하는 동시에 상호작용
+- `outer layer`에 대해서는 아는 것도 없고 관심도 없음
+
+### Adapters
+- `Domain`과 `Infrastructure`사이의 번역기 역할
+- GUI의 MVC아키텍처를 완전히 내포하며, `Presnter`, `View`, `Controller`가 모두 여기에 속함
+
+### Infrastructure
+- 모든 I/O components (*
