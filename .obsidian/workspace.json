@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5267ddb85523b708",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ddd/2023-01-25 Clean Architecture.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ddd/2023-01-23 Layered Architecture.md",
+                "file": "ddd/2023-01-25 Clean Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ddd/2023-01-23 Layered Architecture.md",
+                "file": "ddd/2023-01-25 Clean Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ddd/2023-01-23 Layered Architecture.md"
+                "file": "ddd/2023-01-25 Clean Architecture.md"
               }
             }
           },
@@ -155,6 +168,8 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "c037ac3f4f61044b",
-  "lastOpenFiles": []
+  "active": "9336167dca6b0c4c",
+  "lastOpenFiles": [
+    "ddd/2023-01-23 Layered Architecture.md"
+  ]
 }
