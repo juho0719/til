@@ -31,5 +31,21 @@ tags: [frontend spa]
 - `가상 돔(Virtual Dom)`으로 화면 요소를 변경 및 조작하고 최종 결과물을 `DOM Tree`에 반영
 - 점진적인 프레임워크(progressive framework)
 - 단방향, 양방향 모두 지원
-- 
+- 상대적으로 배우기 쉬워 러닝커브가 낮은 편
+
+
+# 차이점
+
+- 서로 다른 데이터 흐름 라이브러리
+	- `React`는 `Redux`, `Vue`는 `Vuex`
+- 상태 관리
+	- `React`는 `Redux`를 통해 가능, `Vue`는 자체 도구 제공
+- `React`는 라이브러리, `Vue`는 프레임워크
+- `Vue`는 `SFC(Simple File Component)`로 구성, `React`는 `JSX` 사용
+
+
+# 결론
+
+- 초보자가 접근하기에는 `Vue`가 유리
+	- 기능이 
 
