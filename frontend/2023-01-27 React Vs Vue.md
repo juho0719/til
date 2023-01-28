@@ -20,4 +20,16 @@ tags: [frontend spa]
 - UI 자바스크립트 라이브리러
 - SPA의 UI를 생성하는데 집중하는 라이브러리
 - `JSX(Javascript XML)` 문법과 `단방향 데이터 바인딩(One-way Data Binding)`를 사용
+- `가상 돔(Virtual DOM)`을 이용하여 퍼포먼스 최적화
+- 선언적(Declarative), 컴포넌트 기반(Component-based), 한번 배워서 어디에서나 사용(Learn once, Write anyware)
+
+
+# Vue
+
+- UI 라이브러이이자 프레임워크
+- UI 생성 기능뿐만 아니라 라우터, 상태관리, 테스팅등을 쉽게 결합할 수 있도록 제공
+- `가상 돔(Virtual Dom)`으로 화면 요소를 변경 및 조작하고 최종 결과물을 `DOM Tree`에 반영
+- 점진적인 프레임워크(progressive framework)
+- 단방향, 양방향 모두 지원
 - 
+
