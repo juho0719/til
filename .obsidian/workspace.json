@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7e078bca1244a63a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "frontend/2023-01-29 Vue UI Component.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "frontend/2023-01-27 React Vs Vue.md",
+                "file": "frontend/2023-01-29 Vue UI Component.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "frontend/2023-01-27 React Vs Vue.md",
+                "file": "frontend/2023-01-29 Vue UI Component.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "frontend/2023-01-27 React Vs Vue.md"
+                "file": "frontend/2023-01-29 Vue UI Component.md"
               }
             }
           },
@@ -168,10 +180,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "741b5a535d1a7b37",
+  "active": "7e078bca1244a63a",
   "lastOpenFiles": [
-    "ddd/2023-01-25 Clean Architecture.md",
     "frontend/2023-01-27 React Vs Vue.md",
+    "ddd/2023-01-25 Clean Architecture.md",
     "ddd/2023-01-23 Layered Architecture.md"
   ]
 }
