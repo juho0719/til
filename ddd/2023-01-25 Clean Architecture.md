@@ -33,7 +33,7 @@ graph
 
 
 
-![clean_architecture](../img/clean_architecture.png)
+![clean_architecture](clean_architecture.png)
 
 
 ### Entities

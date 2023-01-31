@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "frontend/2023-01-29 Vue UI Component.md",
+                "file": "ddd/2023-01-25 Clean Architecture.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ef203e623164cddc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023-01-31 How to study AI?.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "frontend/2023-01-29 Vue UI Component.md",
+                "file": "2023-01-31 How to study AI?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "frontend/2023-01-29 Vue UI Component.md",
+                "file": "2023-01-31 How to study AI?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "frontend/2023-01-29 Vue UI Component.md"
+                "file": "2023-01-31 How to study AI?.md"
               }
             }
           },
@@ -180,10 +192,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "7e078bca1244a63a",
+  "active": "ef203e623164cddc",
   "lastOpenFiles": [
-    "frontend/2023-01-27 React Vs Vue.md",
     "ddd/2023-01-25 Clean Architecture.md",
+    "etc/img/clean_architecture.png",
+    "frontend/2023-01-29 Vue UI Component.md",
+    "frontend/2023-01-27 React Vs Vue.md",
     "ddd/2023-01-23 Layered Architecture.md"
   ]
 }
