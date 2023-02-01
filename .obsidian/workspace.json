@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "62270ee46d7d02c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ai/2023-02-01 Machine Learning Basic.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ai/2023-01-31 How to study AI?.md",
+                "file": "ai/2023-02-01 Machine Learning Basic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ai/2023-01-31 How to study AI?.md",
+                "file": "ai/2023-02-01 Machine Learning Basic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ai/2023-01-31 How to study AI?.md"
+                "file": "ai/2023-02-01 Machine Learning Basic.md"
               }
             }
           },
@@ -155,8 +168,9 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "9336167dca6b0c4c",
+  "active": "62270ee46d7d02c4",
   "lastOpenFiles": [
+    "ai/2023-01-31 How to study AI?.md",
     "ddd/2023-01-25 Clean Architecture.md",
     "etc/img/clean_architecture.png",
     "frontend/2023-01-29 Vue UI Component.md",
