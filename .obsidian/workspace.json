@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a44b754defa602e8",
+        "id": "8f43d1cdbe67c34c",
         "type": "tabs",
         "children": [
           {
-            "id": "ef203e623164cddc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ai/2023-01-31 How to study AI?.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "62270ee46d7d02c4",
+            "id": "b6ca06b0a9189947",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -168,10 +155,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "62270ee46d7d02c4",
+  "active": "b6ca06b0a9189947",
   "lastOpenFiles": [
-    "ai/2023-01-31 How to study AI?.md",
+    "ai/2023-02-01 Machine Learning Basic.md",
     "ddd/2023-01-25 Clean Architecture.md",
+    "etc/img/nonlinear.png",
+    "etc/img/스크린샷 2023-02-01 오후 11.14.13 1.png",
+    "etc/img/classification_regression.png",
+    "ai/2023-01-31 How to study AI?.md",
     "etc/img/clean_architecture.png",
     "frontend/2023-01-29 Vue UI Component.md",
     "frontend/2023-01-27 React Vs Vue.md",

@@ -19,5 +19,11 @@
 - 분류(Classification)
 	- 타겟변수 Y가 이산형(discrete)이나 범주형(categorical)일때 사용
 - 회귀(Regression)
-	- 타겟변수 Y가 연속형(continuous)나 실수(real number
+	- 타겟변수 Y가 연속형(continuous)나 실수(real number)일때 사용
+![선형모델](classification_regression.png)
+
+
+#### 1-2. 비선형 모델
+- 직선이 아님
+![비선형모델](nonlinear.png)
 
