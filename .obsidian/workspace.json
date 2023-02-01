@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-01-31 How to study AI?.md",
+                "file": "ai/2023-01-31 How to study AI?.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-01-31 How to study AI?.md",
+                "file": "ai/2023-01-31 How to study AI?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-01-31 How to study AI?.md",
+                "file": "ai/2023-01-31 How to study AI?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-01-31 How to study AI?.md"
+                "file": "ai/2023-01-31 How to study AI?.md"
               }
             }
           },
@@ -155,7 +155,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "ef203e623164cddc",
+  "active": "9336167dca6b0c4c",
   "lastOpenFiles": [
     "ddd/2023-01-25 Clean Architecture.md",
     "etc/img/clean_architecture.png",
