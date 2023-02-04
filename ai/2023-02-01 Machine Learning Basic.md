@@ -8,7 +8,7 @@
 - 준지도학습(Representation Learning)
 - 강화학습(Reinforcement Learning)
 
-### 1. 지도학습
+### 1. 지도학습(Supervised Learning)
 - 누군가가 정답을 가지고 지도해준 다는 의미로 지도학습이라 함
 - 대부분이 생각하는 머신러닝이 지도학습
 - `ex_training_data`로 자동차 사진을 자동차로 학습, 그 후 testing으로 사진을 보고 자동차가 맞는지 Y/N으로 말함
