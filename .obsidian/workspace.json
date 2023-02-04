@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9760bc9211174174",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ai/2023-02-01 Machine Learning Basic.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -155,8 +168,9 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "b6ca06b0a9189947",
+  "active": "9760bc9211174174",
   "lastOpenFiles": [
+    "ai/2023-02-04.md",
     "ai/2023-02-01 Machine Learning Basic.md",
     "ddd/2023-01-25 Clean Architecture.md",
     "etc/img/nonlinear.png",
@@ -165,7 +179,6 @@
     "ai/2023-01-31 How to study AI?.md",
     "etc/img/clean_architecture.png",
     "frontend/2023-01-29 Vue UI Component.md",
-    "frontend/2023-01-27 React Vs Vue.md",
-    "ddd/2023-01-23 Layered Architecture.md"
+    "frontend/2023-01-27 React Vs Vue.md"
   ]
 }
