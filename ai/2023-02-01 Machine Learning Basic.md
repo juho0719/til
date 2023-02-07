@@ -23,6 +23,11 @@
 	- 타겟변수 Y가 연속형(continuous)나 실수(real number)일때 사용
 ![선형모델](classification_regression.png)
 
+##### 1-1-1. Lineer regression
+
+
+
+
 
 #### 1-2. 비선형 모델
 - 직선이 아님
