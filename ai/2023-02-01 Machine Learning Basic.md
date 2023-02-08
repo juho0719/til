@@ -23,8 +23,25 @@
 	- 타겟변수 Y가 연속형(continuous)나 실수(real number)일때 사용
 ![선형모델](classification_regression.png)
 
-##### 1-1-1. Lineer regression
+##### 1-1-1. Lineer Regression
 
+- Simple Lineer Regression Analysis
+	- `y = wx + b`
+	- `w`는 가중치(weight), `b`는 편향(basis)
+	- `w`, `b`에 따라 `x`, `y`가 표현하는 직선은 무궁무진해 짐
+
+- Multi Lineer Regression Analysis
+	- `y = w1x1 + w2x2 + w3x3 ... wnxn + b`
+	- `y`는 하나지만 `x`가 여러개
+
+- 가설(Hypothesis) 세우기 
+시간에 따라 다음과 같은 점수를 얻었다는 데이터가 있음
+|hours(x)|score(y)|
+|--------|--------|	
+|2|25|
+|3|50|
+|4|42|
+|5|61|
 
 
 
