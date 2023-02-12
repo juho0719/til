@@ -44,7 +44,9 @@
 |5|61|
 - x, y의 관계를 유추하기 위해 수학적으로 식을 세워보는 데 이를 `가설(Hypothesis)`라 함
 
+
 - 비용 함수(Cost Function)
+	- $cost(W) = \frac{1}{m}\displaystyle\sum_{i=1}^{m}{(Wx^{(i)}-y^{(i)})^2}$
 	- 가설을 세운 후 해야할 일은 문제에 대한 규칙을 잘 표현한 `w`, `b`를 찾는 일
 	- `w`, `b`를 찾기 위해 실제값과 예측값의 오차를 계산하는 식을 세우고 이 값을 최소화 하는 최적의 `w`, `b`를 찾아냄
 	- 실제값과 예측값의 오차에 대한 식을 `목적함수(Objective Function)` 또는 `비용함수(Cost Funciton)` 또는 `손실함수(Loss Function)`이라 함
