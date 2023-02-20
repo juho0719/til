@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c0dc978a9968396d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kotlin/Kotlin Basic Syntax.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kotlin/Kotlin Features.md",
+                "file": "kotlin/Kotlin Basic Syntax.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kotlin/Kotlin Features.md",
+                "file": "kotlin/Kotlin Basic Syntax.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kotlin/Kotlin Features.md"
+                "file": "kotlin/Kotlin Basic Syntax.md"
               }
             }
           },
@@ -168,8 +180,9 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "9760bc9211174174",
+  "active": "c0dc978a9968396d",
   "lastOpenFiles": [
+    "kotlin/Kotlin Features.md",
     "ai/2023-02-04.md",
     "ai/2023-02-01 Machine Learning Basic.md",
     "ddd/2023-01-25 Clean Architecture.md",
@@ -178,7 +191,6 @@
     "etc/img/classification_regression.png",
     "ai/2023-01-31 How to study AI?.md",
     "etc/img/clean_architecture.png",
-    "frontend/2023-01-29 Vue UI Component.md",
-    "frontend/2023-01-27 React Vs Vue.md"
+    "frontend/2023-01-29 Vue UI Component.md"
   ]
 }
