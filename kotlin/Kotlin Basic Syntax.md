@@ -81,5 +81,7 @@ println("The perimeter is ${rectangle.perimeter}")
 ```kotlin
 open class Shape
 
-class Rectangle(var height: Double, )
+class Rectangle(var height: Double, var length: Double): Shape() {
+	var perimeter = (height + length) * 2
+}
 ```
