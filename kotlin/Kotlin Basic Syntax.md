@@ -61,3 +61,25 @@ fun incrementX() {
 }
 ```
 
+## Creating classes and instances
+- `class`키워드로 정의
+```kotlin
+class Shape
+```
+- 클래스의 프로퍼티들은 선언시 정의 하거나 본문에 나열할 수 있음
+```kotlin
+class Rectangle(var height: Double, var length: Double) {
+	var perimeter = (height + length) * 2
+}
+```
+- 클래스 파라미터로 나열하면 매개변수가 있는 생성자로 자동 사용 가능
+```kotlin
+val rectangle = Rectangle(5.0, 2.0)
+println("The perimeter is ${rectangle.perimeter}")
+```
+- 상속은 클래스간의 `:`으로 정의, 기본적으로 `final`클래스 이며 `open`키워드로 상속가능한 클래스로 변경 가능
+```kotlin
+open class Shape
+
+class Rectangle(var height: Double, )
+```
