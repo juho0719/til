@@ -85,3 +85,15 @@ class Rectangle(var height: Double, var length: Double): Shape() {
 	var perimeter = (height + length) * 2
 }
 ```
+
+## String templates
+
+- `String`내 변수 맵핑
+- 템플릿안에 `expression`가능
+```kotlin
+var a = 1
+var s1 = "a is $a"
+
+a = 2
+var s2 = "${s1.replace("is", "was")}, but now is $a"
+```
