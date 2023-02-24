@@ -97,3 +97,30 @@ var s1 = "a is $a"
 a = 2
 var s2 = "${s1.replace("is", "was")}, but now is $a"
 ```
+
+## Conditional expressions
+- `=`로 리턴 처리 가능
+```kotlin
+fun maxOf(a: Int, b: Int) {
+	if (a > b) {
+		return a
+	} else {
+		return b
+	}
+}
+
+fun maxOf(a: Int, b: Int) = if (a > b) a else b
+```
+
+## When expression
+```kotlin
+fun describe(obj: Any): String =
+	when (obj) {
+		1           -> "One"
+		"Hello"     -> "Greeting"
+		is Long     -> "Long"
+		!is String  -> "Not a string" 
+		else        -> "Unknown"
+	}
+```
+

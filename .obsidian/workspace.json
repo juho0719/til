@@ -11,8 +11,12 @@
             "id": "bd4e94df3b9f1c68",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "kotlin/Kotlin Basic Syntax.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "kotlin/Kotlin Basic Syntax.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "kotlin/Kotlin Basic Syntax.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "kotlin/Kotlin Basic Syntax.md"
+              }
             }
           },
           {
@@ -149,9 +157,9 @@
   },
   "active": "bd4e94df3b9f1c68",
   "lastOpenFiles": [
+    "kotlin/Kotlin Features.md",
     "ai/2023-02-01 Machine Learning Basic.md",
     "kotlin/Kotlin Basic Syntax.md",
-    "kotlin/Kotlin Features.md",
     "ai/2023-02-04.md",
     "ddd/2023-01-25 Clean Architecture.md",
     "etc/img/nonlinear.png",
