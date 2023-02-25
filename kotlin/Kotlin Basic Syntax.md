@@ -124,3 +124,36 @@ fun describe(obj: Any): String =
 	}
 ```
 
+## Ranges
+- `in`을 사용하여 범위 안의 숫자인지 확인
+```kotlin
+val x = 10
+val y = 9
+if (x in 1..y+1) {
+	println("fits in range")
+}
+```
+- 범위 밖의 숫자인지 확인
+```kotlin
+val list = listOf("a", "b", "c")
+
+if (-1 !in 0..list.lastIndex) {
+	println("-1 is out of range")
+}
+if (list.size !in list.indices) {
+	println("list size is out of valid list indices range, too")
+}
+```
+
+## Collections
+- `Collections`안의 특정 데이터 포함여부 확인 시 `in` 사용
+```kotlin
+when {
+	"pineapple" in fruits -> println("green and yellow color")
+	"watermelon" in fruits -> println("red and green color")
+}
+```
+- 람다 표현식 가능
+```kotlin
+
+```
