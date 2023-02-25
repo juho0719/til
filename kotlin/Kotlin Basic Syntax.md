@@ -155,5 +155,11 @@ when {
 ```
 - 람다 표현식 가능
 ```kotlin
-
+val fruits = listOf("pineapple", "watermelon", "banana")
+fruits
+	.filter { it.startWith("w") }
+	.sortedBy { it }
+	.map { it.uppercase() }
+	.forEach { println(it) }
 ```
+
