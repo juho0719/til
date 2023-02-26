@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "052e49a3e51fff5f",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.15"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -166,7 +155,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "052e49a3e51fff5f",
+  "active": "bd4e94df3b9f1c68",
   "lastOpenFiles": [
     "kotlin/Kotlin Features.md",
     "ai/2023-02-01 Machine Learning Basic.md",

@@ -163,3 +163,26 @@ fruits
 	.forEach { println(it) }
 ```
 
+## Nullable values and null checks
+- `null`값을 가지려면 타입 끝에 `?`를 명시적으로 작성해야 함
+```kotlin
+fun parseInt(str: String): Int? {
+
+}
+```
+
+## Type checks and automatic casts
+- `is`를 사용하여 인스턴트 타입 확인
+- 불면 지역 변수 또는 프로퍼티의 경우 명시적으로 타입을 명시하지 않아도 됨
+```kotlin
+fun getStringLength(obj: Any): Int? {
+	if (obj is String) {
+		// obj가 String으로 자동캐스팅
+		return obj.length    
+	}
+
+	// 외부에서는 여전히 Any타입
+	return null
+}
+```
+
