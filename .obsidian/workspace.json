@@ -4,39 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "8f43d1cdbe67c34c",
+        "id": "39b1c22e6dc92afe",
         "type": "tabs",
         "children": [
           {
-            "id": "b6ca06b0a9189947",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "9760bc9211174174",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "117370cc0db7ca2d",
+            "id": "bd4e94df3b9f1c68",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kotlin/Kotlin Features.md",
+                "file": "ai/Machine Learning Basic.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ca0791a48fc0f782",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ai/K-Nearest Neighbors.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kotlin/Kotlin Features.md",
+                "file": "ai/K-Nearest Neighbors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kotlin/Kotlin Features.md",
+                "file": "ai/K-Nearest Neighbors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kotlin/Kotlin Features.md"
+                "file": "ai/K-Nearest Neighbors.md"
               }
             }
           },
@@ -172,17 +168,18 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "117370cc0db7ca2d",
+  "active": "ca0791a48fc0f782",
   "lastOpenFiles": [
-    "ai/2023-02-01 Machine Learning Basic.md",
+    "ai/Machine Learning Basic.md",
+    "ai/K-Nearest Neighbors.md",
     "ai/2023-02-04.md",
+    "ai/How to study AI?.md",
+    "kotlin/Kotlin Basic Syntax.md",
+    "kotlin/Kotlin Features.md",
     "ddd/2023-01-25 Clean Architecture.md",
     "etc/img/nonlinear.png",
     "etc/img/스크린샷 2023-02-01 오후 11.14.13 1.png",
     "etc/img/classification_regression.png",
-    "ai/2023-01-31 How to study AI?.md",
-    "etc/img/clean_architecture.png",
-    "frontend/2023-01-29 Vue UI Component.md",
-    "frontend/2023-01-27 React Vs Vue.md"
+    "etc/img/clean_architecture.png"
   ]
 }
