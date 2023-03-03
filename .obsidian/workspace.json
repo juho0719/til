@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "39b1c22e6dc92afe",
+        "id": "8f43d1cdbe67c34c",
         "type": "tabs",
         "children": [
           {
-            "id": "bd4e94df3b9f1c68",
+            "id": "117370cc0db7ca2d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kotlin/Kotlin Basic Syntax.md",
+                "file": "ai/K-Nearest Neighbors.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kotlin/Kotlin Basic Syntax.md",
+                "file": "ai/K-Nearest Neighbors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kotlin/Kotlin Basic Syntax.md",
+                "file": "ai/K-Nearest Neighbors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kotlin/Kotlin Basic Syntax.md"
+                "file": "ai/K-Nearest Neighbors.md"
               }
             }
           },
@@ -155,14 +155,9 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "bd4e94df3b9f1c68",
+  "active": "117370cc0db7ca2d",
   "lastOpenFiles": [
     "kotlin/Kotlin Features.md",
-    "kotlin/Kotlin Basic Syntax.md",
-    "etc/img/bream_scatter_graph.png",
-    "ai/K-Nearest Neighbors.md",
-    "ai/Machine Learning Basic.md",
-    "ai/How to study AI?.md",
     "ai/2023-02-01 Machine Learning Basic.md",
     "ai/2023-02-04.md",
     "ddd/2023-01-25 Clean Architecture.md",
@@ -170,6 +165,7 @@
     "etc/img/스크린샷 2023-02-01 오후 11.14.13 1.png",
     "etc/img/classification_regression.png",
     "ai/2023-01-31 How to study AI?.md",
-    "etc/img/clean_architecture.png"
+    "etc/img/clean_architecture.png",
+    "frontend/2023-01-29 Vue UI Component.md"
   ]
 }
