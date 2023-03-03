@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai/Machine Learning Basic.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ca0791a48fc0f782",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ai/K-Nearest Neighbors.md",
+                "file": "kotlin/Kotlin Basic Syntax.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ai/K-Nearest Neighbors.md",
+                "file": "kotlin/Kotlin Basic Syntax.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ai/K-Nearest Neighbors.md",
+                "file": "kotlin/Kotlin Basic Syntax.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ai/K-Nearest Neighbors.md"
+                "file": "kotlin/Kotlin Basic Syntax.md"
               }
             }
           },
@@ -168,19 +155,21 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "ca0791a48fc0f782",
+  "active": "bd4e94df3b9f1c68",
   "lastOpenFiles": [
+    "kotlin/Kotlin Features.md",
+    "kotlin/Kotlin Basic Syntax.md",
     "etc/img/bream_scatter_graph.png",
     "ai/K-Nearest Neighbors.md",
     "ai/Machine Learning Basic.md",
-    "ai/2023-02-04.md",
     "ai/How to study AI?.md",
-    "kotlin/Kotlin Basic Syntax.md",
-    "kotlin/Kotlin Features.md",
+    "ai/2023-02-01 Machine Learning Basic.md",
+    "ai/2023-02-04.md",
     "ddd/2023-01-25 Clean Architecture.md",
     "etc/img/nonlinear.png",
     "etc/img/스크린샷 2023-02-01 오후 11.14.13 1.png",
     "etc/img/classification_regression.png",
+    "ai/2023-01-31 How to study AI?.md",
     "etc/img/clean_architecture.png"
   ]
 }
