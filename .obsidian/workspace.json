@@ -4,11 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "058b99114cefc51d",
+        "id": "39b1c22e6dc92afe",
         "type": "tabs",
         "children": [
           {
-            "id": "44791d89e434db57",
+            "id": "bd4e94df3b9f1c68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ai/Machine Learning Basic.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ca0791a48fc0f782",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -155,16 +168,20 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "44791d89e434db57",
+  "active": "ca0791a48fc0f782",
   "lastOpenFiles": [
     "etc/img/bream_smelt_sctter_graph.png",
-    "etc/img/clean_architecture.png",
+    "etc/img/bream_scatter_graph.png",
     "ai/K-Nearest Neighbors.md",
-    "Pasted image 20230304122004.png",
-    "Pasted image 20230304121936.png",
-    "Pasted image 20230304121727.png",
-    "etc/img/스크린샷 2023-03-04 오후 12.17.58.png",
+    "ai/Machine Learning Basic.md",
+    "ai/2023-02-04.md",
+    "ai/How to study AI?.md",
+    "kotlin/Kotlin Basic Syntax.md",
+    "kotlin/Kotlin Features.md",
+    "ddd/2023-01-25 Clean Architecture.md",
+    "etc/img/nonlinear.png",
+    "etc/img/스크린샷 2023-02-01 오후 11.14.13 1.png",
     "etc/img/classification_regression.png",
-    "etc/img/bream_scatter_graph.png"
+    "etc/img/clean_architecture.png"
   ]
 }
