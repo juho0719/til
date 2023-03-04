@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8f43d1cdbe67c34c",
+        "id": "058b99114cefc51d",
         "type": "tabs",
         "children": [
           {
-            "id": "117370cc0db7ca2d",
+            "id": "44791d89e434db57",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -155,17 +155,16 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "117370cc0db7ca2d",
+  "active": "44791d89e434db57",
   "lastOpenFiles": [
-    "kotlin/Kotlin Features.md",
-    "ai/2023-02-01 Machine Learning Basic.md",
-    "ai/2023-02-04.md",
-    "ddd/2023-01-25 Clean Architecture.md",
-    "etc/img/nonlinear.png",
-    "etc/img/스크린샷 2023-02-01 오후 11.14.13 1.png",
-    "etc/img/classification_regression.png",
-    "ai/2023-01-31 How to study AI?.md",
+    "etc/img/bream_smelt_sctter_graph.png",
     "etc/img/clean_architecture.png",
-    "frontend/2023-01-29 Vue UI Component.md"
+    "ai/K-Nearest Neighbors.md",
+    "Pasted image 20230304122004.png",
+    "Pasted image 20230304121936.png",
+    "Pasted image 20230304121727.png",
+    "etc/img/스크린샷 2023-03-04 오후 12.17.58.png",
+    "etc/img/classification_regression.png",
+    "etc/img/bream_scatter_graph.png"
   ]
 }
