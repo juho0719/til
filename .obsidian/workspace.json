@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai/K-Nearest Neighbors.md",
+                "file": "ai/Binary classification training using k-nearest neighbors.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "887c52a9c4cef2b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ai/Training and test sets.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ai/K-Nearest Neighbors.md",
+                "file": "ai/Training and test sets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ai/K-Nearest Neighbors.md",
+                "file": "ai/Training and test sets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ai/K-Nearest Neighbors.md"
+                "file": "ai/Training and test sets.md"
               }
             }
           },
@@ -168,11 +180,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "ca0791a48fc0f782",
+  "active": "887c52a9c4cef2b0",
   "lastOpenFiles": [
+    "ai/Binary classification training using k-nearest neighbors.md",
+    "ai/Training and test sets.md",
     "etc/img/bream_smelt_sctter_graph.png",
     "etc/img/bream_scatter_graph.png",
-    "ai/K-Nearest Neighbors.md",
     "ai/Machine Learning Basic.md",
     "ai/2023-02-04.md",
     "ai/How to study AI?.md",
