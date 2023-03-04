@@ -67,4 +67,17 @@ print(fish_target)
 ```
 [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 ```
-- 사이킷런 패키지에서 `k-최근접 이웃`알고리즘을 구현한 클래스인 `KNeighborsClassifier`
+- 사이킷런 패키지에서 `k-최근접 이웃`알고리즘을 구현한 클래스인 `KNeighborsClassifier`를 임포트 후 객체 생성
+- `fit()`메소드를 사용하여 훈련
+- `score()`메소드를 사용하여 평가
+```python
+from sklearn.neighbors import KNeighborsClassifier
+
+kn = KNeighborsClassifier()
+kn.fit(fish_data, fish_target)
+kn.score()
+```
+```
+1.0
+```
+- 모든 `fish_data`를 맞추면 `1.0`. 이를 `정확도(accuracy)`라 부름
