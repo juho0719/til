@@ -42,9 +42,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f5034f903c3ab613",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.16"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -180,7 +190,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "887c52a9c4cef2b0",
+  "active": "f5034f903c3ab613",
   "lastOpenFiles": [
     "ai/Binary classification training using k-nearest neighbors.md",
     "ai/Training and test sets.md",
