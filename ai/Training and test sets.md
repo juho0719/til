@@ -19,5 +19,44 @@ fish_weight = [242.0, 290.0, 340.0, 363.0, 430.0, 450.0, 500.0, 390.0, 450.0, 50
 fish_data = [[l, w] for l, w in zip(fish_length, fish_weight)]
 fish_target = [1]*35 + [0]*14
 
-from 
+from sklearn.neighbors import KNeighborsClassifier
+
+kn = KNeighborsClassifier()
+
+train_input = fish_data[:35]
+train_target = fish_target[:35]
+
+test_input = fish_data[35:]
+test_target = fish_target[35:]
+
+kn.fit(train_input, train_target)
+kn.score(test_input, test_target)
+```
+```
+0.0
+```
+
+
+
+## 샘플링 편향
+- 훈련 세트와 테스트 세트를 나누려면 데이터를 골고루 섞어야 함
+- 골고루 섞여 있지 않으면 한쪽으로 치우져여 있다 하여 `샘플링 편향(sampling bias)`이라고 부름
+- 넘파이(numpy) 사용
+```python
+import numpy as np
+
+input_arr = np.array(fish_data)
+target_arr = np.array(fish_target)
+
+print(input_arr)
+```
+- `shape` 속성으로 배열의 크기를 알 수 있음
+```python
+print(input_arr.shape)     # 여기에선 (샘플 수, 특성 수) 출력
+```
+- `arange()`함수를 사용하여 0-48까지 1씩 증가하는 인덱스를 만들고 이를 랜덤으로 섞음
+```python
+np.random.seed(42)
+index = np.arange(49)
+np.random.shuffle(index)
 ```
