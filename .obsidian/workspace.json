@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "ai/Machine Learning Basic.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ca0791a48fc0f782",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ai/Binary classification training using k-nearest neighbors.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "887c52a9c4cef2b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "ai/Training and test sets.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -155,24 +180,21 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "bd4e94df3b9f1c68",
+  "active": "887c52a9c4cef2b0",
   "lastOpenFiles": [
-    "ai/Binary classification training using k-nearest neighbors.md",
-    "ai/K-Nearest Neighbors.md",
-    "etc/img/bream_smelt_sctter_graph.png",
+    "ai/Machine Learning Basic.md",
     "ai/Training and test sets.md",
+    "ai/How to study AI?.md",
     "kotlin/Kotlin Basic Syntax.md",
     "kotlin/Kotlin Features.md",
+    "ai/Binary classification training using k-nearest neighbors.md",
+    "etc/img/bream_smelt_sctter_graph.png",
     "etc/img/bream_scatter_graph.png",
-    "ai/Machine Learning Basic.md",
-    "ai/How to study AI?.md",
-    "ai/2023-02-01 Machine Learning Basic.md",
     "ai/2023-02-04.md",
     "ddd/2023-01-25 Clean Architecture.md",
     "etc/img/nonlinear.png",
     "etc/img/스크린샷 2023-02-01 오후 11.14.13 1.png",
     "etc/img/classification_regression.png",
-    "ai/2023-01-31 How to study AI?.md",
     "etc/img/clean_architecture.png"
   ]
 }
