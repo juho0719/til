@@ -37,18 +37,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai/Training and test sets.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "29140581df70f0c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "ai/Data Preprocessing.md",
                 "mode": "source",
                 "source": false
@@ -56,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -192,9 +180,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "29140581df70f0c6",
+  "active": "887c52a9c4cef2b0",
   "lastOpenFiles": [
     "ai/Training and test sets.md",
+    "etc/img/bream_scatter_and_another_bream_graph.png",
     "ai/Data Preprocessing.md",
     "ai/Machine Learning Basic.md",
     "ai/How to study AI?.md",

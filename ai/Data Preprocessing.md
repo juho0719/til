@@ -14,3 +14,38 @@ train_input, test_input, train_target, test_target = train_test_split(fish_data,
 ```
 
 ### 수상한 도미 한 마리
+- 이전과 마찬가지로 k-최근접 이웃으로 훈련
+```python
+from sklearn.neighbors import KNeighborsClassifier
+kn = KNeighborsClassifier()
+kn.fit(train_input, train_target)
+kn.score(test_input, test_target)
+```
+```
+1.0
+```
+- 다른 도미데이터 예측
+```python
+print(kn.predict[[25, 150]])
+```
+```
+[0.]
+```
+- 도미라고 나오지 않아 이 샘플을 다른 데이터와 함께 산점도로 그림
+```python
+import matplotlib.pyplot as plt
+
+plt.scatter(train_input[:,0], train_input[:,1])
+plt.scatter(25, 150, marker='^')
+plt.xlabel('length')
+plt.ylabel('weight')
+plt.show()
+```
+![[bream_scatter_and_another_bream_graph.png]]
+
+- 최근접 이웃은 주변의 샘플 중 다수인 클래스를 예측으로 사용
+- KNeighborsClassifier클래스는 주어진 샘플에서 가장 가까운 이웃을 찾아 주는 `kneighbors()`메소드를 제공
+- KNeighborsClassifier클래스의 이웃 개수인 n_neighbors의 기본 값은 5이므로 5개의 이웃을 반환
+```python
+distances, indexes = kn.kneighbors([[25, 150]])
+```
