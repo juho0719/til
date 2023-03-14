@@ -49,3 +49,16 @@ plt.show()
 ```python
 distances, indexes = kn.kneighbors([[25, 150]])
 ```
+- `indexes`배열을 사용해 이웃 샘플을 따로 구분하여 그림
+```python
+plt.scatter(train_input[:,0], train_input[:,1])
+plt.scatter(25, 150, marker='^')
+plt.scatter(train_input[indexes,0], train_input[indexes,1], marker='D')
+plt.xlabel('length')
+plt.ylabel('weight')
+plt.show()
+```
+![[bream_smelt_5d_graph.png]]
+- 1개만 도미고, 나머지는 빙어인 것을 확인
+
+### 기준을 맞춰라
