@@ -62,3 +62,21 @@ plt.show()
 - 1개만 도미고, 나머지는 빙어인 것을 확인
 
 ### 기준을 맞춰라
+- x축과 y축의 범위가 달라 더 먼거리처럼 보이지만 가까운 거리
+- x축의 범위를 동일하게 0~1000으로 맞춤
+```python
+plt.scatter(train_input[:,0], train_input[:,1])
+plt.scatter(25, 150, marker='^')
+plt.scatter(train_input[indexes,0], train_input[indexes,1], marker='D')
+plt.xlim((0, 1000))
+plt.xlabel('length')
+plt.ylabel('weight')
+plt.show()
+```
+![[Pasted image 20230316220745.png]]
+
+- x축은 가장 가까운 이웃을 찾는데 크게 영향을 못 미침
+- 두 특성의 값이 놓인 범위가 매우 다른 경우 이를 두 특성의 `스케일(scale)`이 다르다고 함
+- 알고리즘을 제대로 사용하려면 특성값을 일정한 기준으로 맞춰야 함
+- 이런 작업을 `데이터 전처리(data processing)`이라 함
+- 가장 널리 사용하는 전처리 방법 중 하나는 
