@@ -109,5 +109,23 @@ train_scaled = (train_input - mean) / std
 - 훈련 세트를 `mean`(평균)으로 빼고 `std`(표준편차)로 나누어 주었기 때문에 값의 범위가 크게 달라짐
 - 훈련세트의 `mean`과 `std`를 이용해서 변환해야 함
 ```python
+new = ([25, 150] - mean) / std
 
+plt.scatter(train_scaled[:,0], train_scaled[:,1])
+plt.scatter(new[0], new[1], marker='^')
+plt.xlabel('length')
+plt.ylabel('weight')
+plt.show()
 ```
+![[Pasted image 20230316222115.png]]
+
+- k-최근법 이웃 모델
+- 테스트 세트도 훈련 세트의 평균과 표준편차로 변환해야 함
+- 그렇지 않다면 데이터의 스케일이 같아지지 않으므로 훈련한 모델이 쓸모 없어 짐
+- 모델을 평가해보면
+```python
+test_scaled = (test_input - mean) / std
+kn.score(test_scaled, test_target)
+print(kn.predict([new]))
+```
+
