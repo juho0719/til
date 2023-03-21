@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bb090ff2a4146e64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ai/K-Nearest Neighbors Regression.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ai/Data Preprocessing.md",
+                "file": "ai/K-Nearest Neighbors Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ai/Data Preprocessing.md",
+                "file": "ai/K-Nearest Neighbors Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ai/Data Preprocessing.md"
+                "file": "ai/K-Nearest Neighbors Regression.md"
               }
             }
           },
@@ -170,15 +182,16 @@
   },
   "active": "9336167dca6b0c4c",
   "lastOpenFiles": [
+    "ai/Machine Learning Basic.md",
+    "ai/K-Nearest Neighbors Regression.md",
+    "ai/Data Preprocessing.md",
     "etc/img/Pasted image 20230316222115.png",
     "etc/img/Pasted image 20230316221828.png",
     "ai/Binary classification training using k-nearest neighbors.md",
     "etc/img/Pasted image 20230316220745.png",
-    "ai/Data Preprocessing.md",
     "etc/img/bream_smelt_5d_graph.png",
     "ai/Training and test sets.md",
     "etc/img/bream_scatter_and_another_bream_graph.png",
-    "ai/Machine Learning Basic.md",
     "ai/How to study AI?.md",
     "kotlin/Kotlin Basic Syntax.md",
     "kotlin/Kotlin Features.md",
@@ -188,7 +201,6 @@
     "ddd/2023-01-25 Clean Architecture.md",
     "etc/img/nonlinear.png",
     "etc/img/스크린샷 2023-02-01 오후 11.14.13 1.png",
-    "etc/img/classification_regression.png",
-    "etc/img/clean_architecture.png"
+    "etc/img/classification_regression.png"
   ]
 }
