@@ -13,38 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai/Machine Learning Basic.md",
+                "file": "ai/Training and test sets.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ca0791a48fc0f782",
+            "id": "0504b4b094d71ee0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai/Data Preprocessing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bb090ff2a4146e64",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ddd/2023-01-23 Layered Architecture.md",
+                "file": "d.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ddd/2023-01-23 Layered Architecture.md",
+                "file": "d.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ddd/2023-01-23 Layered Architecture.md",
+                "file": "d.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ddd/2023-01-23 Layered Architecture.md"
+                "file": "d.md"
               }
             }
           },
@@ -180,28 +168,31 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "bb090ff2a4146e64",
+  "active": "0504b4b094d71ee0",
   "lastOpenFiles": [
-    "ddd/2023-01-25 Clean Architecture.md",
-    "ddd/2023-01-23 Layered Architecture.md",
-    "ai/K-Nearest Neighbors Regression.md",
-    "ai/Machine Learning Basic.md",
-    "ai/Data Preprocessing.md",
+    "ai/Training and test sets.md",
+    "d.md",
+    "etc/img/bream_smelt_5d_graph.png",
+    "etc/img/bream_scatter_and_another_bream_graph.png",
     "etc/img/Pasted image 20230316222115.png",
     "etc/img/Pasted image 20230316221828.png",
-    "ai/Binary classification training using k-nearest neighbors.md",
     "etc/img/Pasted image 20230316220745.png",
-    "etc/img/bream_smelt_5d_graph.png",
-    "ai/Training and test sets.md",
-    "etc/img/bream_scatter_and_another_bream_graph.png",
-    "ai/How to study AI?.md",
+    "ai/K-Nearest Neighbors Regression.md",
+    "ai/Data Preprocessing.md",
+    "ai/Binary classification training using k-nearest neighbors.md",
+    "ai/K-Nearest Neighbors.md",
+    "etc/img/bream_smelt_sctter_graph.png",
     "kotlin/Kotlin Basic Syntax.md",
     "kotlin/Kotlin Features.md",
-    "etc/img/bream_smelt_sctter_graph.png",
     "etc/img/bream_scatter_graph.png",
+    "ai/Machine Learning Basic.md",
+    "ai/How to study AI?.md",
+    "ai/2023-02-01 Machine Learning Basic.md",
     "ai/2023-02-04.md",
+    "ddd/2023-01-25 Clean Architecture.md",
     "etc/img/nonlinear.png",
     "etc/img/스크린샷 2023-02-01 오후 11.14.13 1.png",
-    "etc/img/classification_regression.png"
+    "etc/img/classification_regression.png",
+    "ai/2023-01-31 How to study AI?.md"
   ]
 }
