@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai/K-Nearest Neighbors Regression.md",
+                "file": "ddd/2023-01-23 Layered Architecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ai/K-Nearest Neighbors Regression.md",
+                "file": "ddd/2023-01-23 Layered Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ai/K-Nearest Neighbors Regression.md",
+                "file": "ddd/2023-01-23 Layered Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ai/K-Nearest Neighbors Regression.md"
+                "file": "ddd/2023-01-23 Layered Architecture.md"
               }
             }
           },
@@ -180,10 +180,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "9336167dca6b0c4c",
+  "active": "bb090ff2a4146e64",
   "lastOpenFiles": [
-    "ai/Machine Learning Basic.md",
+    "ddd/2023-01-25 Clean Architecture.md",
+    "ddd/2023-01-23 Layered Architecture.md",
     "ai/K-Nearest Neighbors Regression.md",
+    "ai/Machine Learning Basic.md",
     "ai/Data Preprocessing.md",
     "etc/img/Pasted image 20230316222115.png",
     "etc/img/Pasted image 20230316221828.png",
@@ -198,7 +200,6 @@
     "etc/img/bream_smelt_sctter_graph.png",
     "etc/img/bream_scatter_graph.png",
     "ai/2023-02-04.md",
-    "ddd/2023-01-25 Clean Architecture.md",
     "etc/img/nonlinear.png",
     "etc/img/스크린샷 2023-02-01 오후 11.14.13 1.png",
     "etc/img/classification_regression.png"
