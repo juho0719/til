@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "0504b4b094d71ee0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "d.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "d.md",
+                "file": "ai/Training and test sets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "d.md",
+                "file": "ai/Training and test sets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "d.md"
+                "file": "ai/Training and test sets.md"
               }
             }
           },
@@ -168,10 +155,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "0504b4b094d71ee0",
+  "active": "bd4e94df3b9f1c68",
   "lastOpenFiles": [
-    "ai/Training and test sets.md",
     "d.md",
+    "ai/Training and test sets.md",
     "etc/img/bream_smelt_5d_graph.png",
     "etc/img/bream_scatter_and_another_bream_graph.png",
     "etc/img/Pasted image 20230316222115.png",
