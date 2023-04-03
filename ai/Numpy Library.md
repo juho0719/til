@@ -58,3 +58,34 @@ array([[1., 1., 1.],
 np.random.random((2,3))    # (2,3) 크기의 랜덤 행렬
 ```
 
+
+## Numpy Array Metadata
+
+#### shape
+- 배열의 `row`와 `column`의 크기를 출력
+```python
+c = np.array([[1,2,3],[4,5,6]])
+c.shape
+```
+```
+(2, 3)
+```
+
+#### size
+- 배열 성분들의 총 개수 출력
+```python
+c.size
+```
+```
+6
+```
+
+#### dtype
+- 배열의 성분들 타입
+```python
+c.dtype
+```
+```
+dtype(`int64`)
+```
+
