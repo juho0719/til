@@ -35,6 +35,41 @@ C    60
 
 ### Dataframe
 - 여러 개의 Series가 모여서 행과 열을 이룬 데이터
-```tpy
+- 'col0', 'col1', 'col2'는 column의 인덱스
+- 따로 설정하지 않으면 자동으로 정수값으로 설정
+```python
+from pandas import DataFrame
+
+raw_data = {'col0': [1,2,3,4],
+		    'col1': [10,20,30,40],
+		    'col2': [100,200,300,400]}
+
+data = DataFrame(raw_data)
 ```
+```
+    col0  col1  col2
+0     1    10    100
+1     2    20    200
+2     3    30    300
+3     4    40    400
+```
+- DataFrame 객체 생성 시점에 row 인덱스와 column 인덱스 지정 가능
+```python
+a = [1,2], b = [3,4]
+df = DataFrame(a, index=[0,1], columns=['a','b'])
+```
+```
+    a    b
+0   1    2
+1   3    4
+```
+
+### Example
+
+#### 5개의 age 데이터와 이름을 age로 선언
+```python
+import pandas as pd
+age = pd.Series([10,20,40,50,60], name=)
+```
+
 
