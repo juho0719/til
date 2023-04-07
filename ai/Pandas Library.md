@@ -69,7 +69,27 @@ df = DataFrame(a, index=[0,1], columns=['a','b'])
 #### 5개의 age 데이터와 이름을 age로 선언
 ```python
 import pandas as pd
-age = pd.Series([10,20,40,50,60], name=)
+age = pd.Series([10,20,40,50,60], name='age')
+```
+
+#### 파이썬 Dictionary형 데이터 class_name을 Series형 데이터로 생성
+```python
+class_name = ['국어' : 90, '영어' : 70, '수학' : 100, '과학' : 80]
+class_series = pd.Series(class_name)
+```
+
+#### 2차원 데이터로 DataFrame 생성. index와 columns값을 설정
+```python
+df = pd.DataFrame([10,20],[30,40], index=['국어','영어'], columns=['철수','영희'])
+```
+```
+      철수    영희
+국어    10     20
+영어    30     40
 ```
 
 
+
+## Pandas 데이터 다루기
+
+### 인덱스 & 슬라이싱
