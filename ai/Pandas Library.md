@@ -166,5 +166,41 @@ weight  68.5  60.3  53.4  74.1  80.7
 sex        F     M     F     M     F 
 ```
 
+
 ### 연산
-- 
+- 사칙연산의 경우 각 행렬의 동일한 위치끼리 연산, 연산이 되지 않는 부분은 `fill_value=값`의 형태로 `NaN`을 대체 가능
+```python
+A = pd.DataFrame(np.random.randint(0, 10, (2, 2)))
+B = pd.DataFrame(np.random.randint(0, 10, (3, 3)))
+
+A.add(B, fill_value=0)    # 덧셈
+A.sub(B, fill_value=0)    # 뺄셈
+A.mul(B, fill_value=0)    # 곱셈
+A.div(B, fill_value=0)    # 나눗셈
+```
+
+
+### 정렬
+- `sort_values()`를 통해 오름차순 또는 내림차순 정렬 가능
+- `axis`의 값이 `0`이면 열, `1`이면 행
+- `ascending`값이 `True`면 오름차순, `False`면 내림차순
+```python
+C = pd.DataFrame([[1,3,5],[15,10,5],[2,8,5]], index = ['a','b','c'], columns = ['d','e','f'])
+
+# c행 오름차순
+C.sort_values('c', axis=1, ascending=True)
+
+# e열 내림차 순
+C.sort_values('e', axis=0, ascending=False)
+```
+
+
+### 저장 및 불러오기
+- `csv`, `excel`형태로 저장/불러오기 가능
+```python
+C.to_csv('C.csv')
+C.to_excel('C.csv')
+
+pd.read_csv('C.csv')
+pd.read_excel('C.csv')
+```
