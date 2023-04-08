@@ -102,5 +102,36 @@ plt.show()
 - `subplot()`입력 값으로 3개의 자연수가 필요
 - 위 예시에서 사용된 `subplot(221)`은 (2,2)행렬 출력창에서 1번째 출력창으로 설정하는 것을 의미
 
+### fig, ax를 나누어 설정
+```python
+x = np.arange(10)
 
+# 초기 figure와 축을 설정합니다.
+fig, ax = plt.subplots()
+
+# y = x 그래프를 그립니다. 따라서 x 데이터는 x, y 데이터도 x로 설정합니다.
+# label은 'y=x', 마커는 'o', 마커 색깔은 'blue', 그래프의 선 스타일은 ':'로 설정
+ax.plot(x, x, label='y=x', marker='o', color='blue', linestyle=':')
+
+# y = x^2 그래프를 그립니다. 따라서 x 데이터는 x, y 데이터는 x**2으로 설정합니다.
+# label은 'y=x^2', 마커는 '^', 마커 색깔은 'red', 그래프의 선 스타일은 '--'로 설정
+ax.plot(x, x**2, label='y=x^2', marker='^', color='red', linestyle='--')
+
+# 그래프 제목을 'Graph'
+ax.set_title('Graph')
+
+# x label은 'x', y label은 'y'
+ax.set_xlabel('x')
+ax.set_ylabel('y')
+
+# x 범위는 0부터 10까지, y 범위는 0부터 100까지
+ax.set_xlim(0, 10)
+ax.set_ylim(0, 100)
+
+# 범례의 위치는 'upper left'로 하고, 그림자 효과는 넣고, 테두리는 둥글게
+ax.legend(loc='upper left', shadow=True, fancybox=True)
+
+# figure를 "plot.png"라는 이름으로 저장하세요.
+fig.savefig('plot.png')
+```
 
