@@ -93,3 +93,39 @@ df = pd.DataFrame([10,20],[30,40], index=['국어','영어'], columns=['철수'
 ## Pandas 데이터 다루기
 
 ### 인덱스 & 슬라이싱
+- age, weight, height의 Series를 DataFrame형태로 생성
+```python
+a = pd.Series([20, 15, 30, 25, 35], name='age')
+b = pd.Series([68.5, 60.3, 53.4, 74.1, 80.7], name='weight')
+c = pd.Series([180, 165, 155, 178, 185], name ='height')
+human = pd.DataFrame([a,b,c])
+```
+```
+            0      1      2      3      4
+age      20.0   15.0   30.0   25.0   35.0
+weight   68.5   60.3   53.4   74.1   80.7
+height  180.0  165.0  155.0  178.0  185.0 
+```
+
+- `loc()`는 명시적 인덱스를 참조하는 인덱싱/슬라이싱
+```python
+human.loc['age']
+```
+```
+0    20.0
+1    15.0
+2    30.0
+3    25.0
+```
+```python
+human.loc['weight','height']
+```
+```
+            0      1      2      3      4
+weight   68.5   60.3   53.4   74.1   80.7
+height  180.0  165.0  155.0  178.0  185.0
+```
+- `iloc()`은 정수 인덱스/슬라이싱. 단, 리스트와 같이 마지막 인덱스는 포함하지 않음
+```python
+
+```
