@@ -134,4 +134,6 @@ ax.legend(loc='upper left', shadow=True, fancybox=True)
 # figure를 "plot.png"라는 이름으로 저장하세요.
 fig.savefig('plot.png')
 ```
+![[Pasted image 20230408154005.png]]
+
 
