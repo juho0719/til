@@ -159,4 +159,36 @@ axes[0,0].scatter(x, y, c=colors, s=2, alpha=0.7)
 #### Bar
 - figure(0,1)위치에  `bar`그래프 그리기
 - `x` : x축 데이터
-- 
+- `y` : y축 데이터
+```python
+x = np.range(10)
+axes[0,1].bar(x, y)
+```
+
+#### Multi-Bar
+- figure(1,0)위치에 `bar`그래프 그리기
+- x축은 `x_ax`, y축은 각각 x,y,z로 설정
+- `set_xticks(x_ax)`는 x축 데이터를 병렬적으로 설정
+- `set_xticklabels(['A', 'B', 'C'])`는 x축 label을 'A', 'B', 'C'로 설정
+```python
+x = np.array([3,2,1])
+y = np.array([2,3,2])
+z = np.array([1,3,4])
+data1 = [x, y, z]
+x_ax = np.arange(3)
+
+for i in x_ax:
+	axes[1,0].bar(x_ax, data1[i], bottom=np.sum(data1[:i], axis=0))
+
+axes[1,0].set_xticks(x_ax)
+axes[1,0].set_xticklabels(['A', 'B', 'C'])
+```
+
+#### Histogram
+- figure(1,1)에 `Histogram`그래프 그리기
+- 입력 데이터는 `data`, `Histogram`표현시 분할되는 개수는 50
+```python
+data = np.array(data_x)
+axex[1,1].hist(data, 60)
+```
+
