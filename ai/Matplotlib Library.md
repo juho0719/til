@@ -137,4 +137,26 @@ fig.savefig('plot.png')
 ![[Pasted image 20230408154005.png]]
 
 
-### Scatter
+### 다양한 그래프를 그리기 위한 함수/라이브러리
+
+- axb개의 그래프를 그릴 수 있는 초기 데이터 값
+```python
+fig, axes = plt.subplots(a,b)
+```
+
+#### Scatter
+- figure(0,0)의 위치에 `scatter`그래프 그리기
+- `x` : x축 데이터
+- `y` : y축 데이터
+- `c` : 데이터 폰트 색깔 설정
+- `s` : 데이터 픈트 크기 설정
+- `alpha` : 데이터 폰트 투명도 설정
+```python
+colors = np.random.randint(0,100,500)
+axes[0,0].scatter(x, y, c=colors, s=2, alpha=0.7)
+```
+
+#### Bar
+- figure(0,1)위치에  `bar`그래프 그리기
+- `x` : x축 데이터
+- 
