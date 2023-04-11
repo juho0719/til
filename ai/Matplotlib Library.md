@@ -137,3 +137,4 @@ fig.savefig('plot.png')
 ![[Pasted image 20230408154005.png]]
 
 
+### Scatter
