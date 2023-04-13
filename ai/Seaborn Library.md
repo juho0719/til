@@ -69,3 +69,51 @@ titanic = sns.load_dataset("titanic")
 # 전체 데이터에서 처음 5개의 row 데이터 표시 (내용 확인)
 titanic.head()
 ```
+![[Pasted image 20230414083941.png]]
+
+- 파라미터 `x`에는 출력을 위한 열이름인 "class"를 입력하고, `data`에는 데이터프레임인 titanic을 입력
+```python
+ax = sns.countplot(x="class", data=titanic)
+plt.show()
+```
+![[Pasted image 20230414084048.png]]
+
+- `x`대신 `y`를 사용하면 y축 기준으로 출력된 막대그래프를 확인
+```python
+ax = sns.countplot(y="class", data=titanic)
+plt.show()
+```
+![[Pasted image 20230414084128.png]]
+
+
+### 산점도와 히스토그램 그래프 그리기 - joinplot()
+- `joinplot()`은 산점도와 히스토그램을 함께 출력할 수 있음
+- `joinplot()`의 대표적인 파라미터
+	- `x, y` : 열과 행 이름 (문자열)
+	- `data` : 시각화를 위한 데이터 (Pandas DataFrame 형)
+	- `kind` : 차트 종류 (기본은 Scatter)
+- 레스토랑 팁 가격에 대한 데이터를 불러와 `joinplot()`으로 출력
+```python
+# 배경 색상 설정
+sns.set(style="white")
+# 팁 데이터 불러오기
+tips = sns.load_dataset("tips")
+# 전체 데이터에서 처음 5개의 row 데이터 표시 (내용 확인)
+tips.head()
+```
+![[Pasted image 20230414084515.png]]
+
+```python
+g = sns.jointplot(x="total_bill", y="tip", data=tips)
+plt.show()
+```
+![[Pasted image 20230414084618.png]]
+
+```python
+# reg (regression + scatter) : 근사선
+g = sns.jointplot("total_bill", "tip", data=tips, kind="reg") 
+plt.show()
+```
+![[Pasted image 20230414084635.png]]
+
+
