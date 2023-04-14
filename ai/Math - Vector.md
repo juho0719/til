@@ -31,6 +31,33 @@ plt.show()
 - 벡터의 크기는 원점에서 벡터의 성분이 가리키고 있는 좌표를 화살표로 표시
 - 화살표가 가리키는 좌표에서 x축으로 수선을 그으면 아래 그림과 같이 직각 삼각형을 만들 수 있음
 ![[Pasted image 20230414194226.png]]
-- 벡터 `a`의 크기는 직각삼각형의 빗변의 길이
-- 이를 피타고라스의 정리를 사용하면
-$$\left| \overrightarrow{a} \right| = \sqrt{$$
+- 벡터 $\vec{a}$의 크기는 직각삼각형의 빗변의 길이
+- 이를 피타고라스의 정리를 사용하여 2차원 벡터의 크기를 구하면
+$$|\vec{a}|=\sqrt{a_{1}^{2}+a_{2}^{2}}$$
+- 2차원 이상의 벡터는 일반화하여 다음과 같이 구할 수 있음
+$$|\vec{a}|=\sqrt{\sum_{i=1}^{n} a_{i}^{2}}, \;\;\;\; \vec{a}=[a_1,a_2,....,a_n]$$
+- 벡터의 크기는 벡터의 `L2 norm`이라고 부르며, numpy에서 제공되는 `numpy.linalg.norm`함수를 이용해 벡터의 크기를 구할 수 있음
+
+
+##### 예제 2 : 벡터의 크기
+```python
+from numpy import linalg as LA
+
+# A,B,C 벡터 정의
+A = np.array([3,4])
+B = np.array([-1,3])
+C = np.array([1,2,3,4])
+
+A_norm = LA.norm(A)
+B_norm = LA.norm(B)
+C_norm = LA.norm(C)
+
+print("A의 크기: {}".format(A_norm))
+print("B의 크기: {}".format(B_norm))
+print("C의 크기: {}".format(C_norm))
+```
+```
+A의 크기 : 5.0
+B의 크기 : 3.1622776601683795
+C의 크기 : 5.477225575051661
+```
