@@ -8,5 +8,20 @@
 - 벡터(vector) : 크기와 방향을 갖는 정보
 - 예제1 : x축과 y축 2차원 공간에서 A(빨강), B(파랑), C(초록) 벡터를 생성하고 시각화
 ```python
+import numpy as np
+import scipy as sc
+import matplotlib.pyplot as plt
 
+# A,B,C 벡터 정의
+A = np.array([2,2])
+B = np.array([-1,3])
+C = np.array([5,2])
+origin = [0], [0] # 원점
+
+# 출력 파트
+plt.quiver(*origin, [A[0],B[0],C[0]], [A[1],B[1],C[1]], color=['r','b','g'], angles='xy', scale_units='xy',scale=1)
+plt.axis([-6,6,-6,6])
+plt.grid(True)
+plt.show()
 ```
+![[Pasted image 20230414135544.png]]
