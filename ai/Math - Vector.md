@@ -25,3 +25,4 @@ plt.grid(True)
 plt.show()
 ```
 ![[Pasted image 20230414135544.png]]
+
