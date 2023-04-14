@@ -123,4 +123,39 @@ plt.grid(True)
 plt.show()
 ```
 ![[Pasted image 20230414200643.png]]
-- 붉은
+- 붉은선(A)와 초록선(C)이 같은 방향에 있는 것을 보면 벡터에 스칼라를 곱해주면 크기는 변하지만 방향은 변함이 없다는 것을 알 수 있음
+
+##### 벡터의 내적
+- 벡터 간에는 곱셈이 정의되지 않고 `벡터 내적(Inner product or dot product)`이란 유사한 계산법이 존재
+$$\vec{a}\cdot \vec{b}= |\vec{a}||\vec{b}|\cos(\theta)$$
+- 벡터 내적의 정의로는 위와 같이 정리되지만, 아래와 같은 계산 방법이 더 자주 사용
+
+##### 벡터 내적 계산법
+$$\vec{a}\cdot \vec{b} = \sum_{i=1}^{n}a_{i}b_{i}, \;\; \;\; \vec{a}=[a_{1}, a_{2}, ..., a_{n}], \;\; \vec{b}=[b_{1}, b_{2}, ..., b_{n}]$$
+
+##### 정사영
+- 정사영(Orthographic projection)은 일반적으로 아래 그림과 같이 도형의 각 점에서 한 평면에 내린 수선의 발이 그리는 도형
+![[Pasted image 20230414201041.png]]
+- 영벡터가 아닌 두 벡터 $\vec{a}, \vec{b}$가 아래와 같이 공간상에 있다고 가정
+![[Pasted image 20230414201117.png]]
+- 벡터 $\vec{a}$를 벡터 $\vec{b}$ 기준으로 수선의 발을 내린다면 위 그림과 같이 표현
+- $\vec{c}$ 벡터를 벡터 사영이라 부르고 그 크기는 벡터 $\vec{a}$와 벡터 $\vec{b}$의 내적인 $|\vec{a}|\cos(\theta)$으로 구할 수 있음
+- 벡터 사영 $\vec{c}$는 $\vec{b}$ 방향의 $|\vec{a}|\cos(\theta)$ 크기를 갖기에 다음과 같이 표현 가능
+
+##### 정사영 벡터 정의
+$$\vec{c}=\frac{\vec{b}}{|\vec{b}|}|\vec{a}|\cos(\theta)$$
+
+- 벡터 $\vec{c}$를 구하기 위해서 벡터 $\vec{a}, \vec{b}$의 그 사잇각 $\theta$를 계산하기는 쉽지 않음
+- $\theta$를 구하지 않고 벡터의 내적을 활용하여 쉽게 $\vec{c}$를 구할 수 있음
+
+##### 내적을 사용한 정사영 표현
+$$\vec{c}=\frac{\vec{b}}{|\vec{b}||\vec{b}|}|\vec{a}||\vec{b}|\cos(\theta)=\frac{\vec{b}}{\vec{b}\cdot \vec{b}}\vec{a}\cdot \vec{b}=\frac{\vec{a}\cdot \vec{b}}{\vec{b}\cdot \vec{b}}\vec{b}$$
+
+##### 머신러닝 기법에서의 내적
+- 벡터의 내적은 벡터로 인코딩된 데이터 간의 유사도를 계산하기 위해 사용
+- 벡터 간의 유사도를 계산하는 방법 중 대표적인 것이 `코사인 유사도(cosine similarity)` 측정 방법
+- 코사인 유사도 측정 방법은 두 벡터 $\vec{a}, \vec{b}$가 이루는 사잇각 $\theta$의 코사인값을 보고 두 벡터, 즉 두 데이터가 얼마나 닮아있는지를 확인
+
+##### 코사인 유사도
+
+$cosine-similarity (\vec{a},  \vec{b}) = $
