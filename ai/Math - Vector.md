@@ -158,4 +158,23 @@ $$\vec{c}=\frac{\vec{b}}{|\vec{b}||\vec{b}|}|\vec{a}||\vec{b}|\cos(\theta)=\frac
 
 ##### 코사인 유사도
 
-$cosine-similarity (\vec{a},  \vec{b}) = $
+$cosine-similarity ($$\vec{a},  \vec{b}$$) = \frac{\vec{a}}{|\vec{a}|}\frac{\vec{b}}{|\vec{b}|} = cos($$\theta$$)$
+
+##### <예제 6> 벡터 내적
+```python
+A = np.array([2,2])
+X = np.array([4,0])
+C = np.array([0,0])
+origin = [0], [0] # origin point
+
+# A to B
+C = np.inner(A, X)/(sum(X**2))*X 
+#C = np.inner(A, B)  # = sum(A[:]*B[:])
+print(np.inner(A, X)/(sum(A**2)))
+
+plt.quiver(*origin, [A[0],X[0],C[0]], [A[1],X[1],C[1]], color=['r','b','g'], angles='xy', scale_units='xy',scale=1)
+plt.axis([-6,6,-6,6])
+plt.grid(True)
+plt.show()
+```
+![[Pasted image 20230414202113.png]]
