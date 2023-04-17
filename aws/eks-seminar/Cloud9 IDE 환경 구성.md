@@ -17,4 +17,55 @@
 
 ### Cloud9에 패키지 설치
 - Cloud9에 연결 후 새로운 터미널 오픈
-- AWS CLI
+- AWS CLI를 최신으로 업그레이드
+```sh
+# AWS CLI Upgrade
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+source ~/.bashrc
+aws --version        # 버전 확인
+```
+- AWS CLI 자동완성 설치
+```sh
+# AWS CLI 자동완성 설치
+which aws_completer
+export PATH=/usr/local/bin:$PATH
+source ~/.bash_profile
+complete -C '/usr/local/bin/aws_completer' aws
+```
+
+
+### Kubectl 설치
+- EKS를 위한 `kubectl`바이너리를 다운로드
+- Kubernetes 버전 1.23출시부터 공식적으로 Amazon EKS AMI에는 containerd가 유일한 런타임으로 포함
+- Kubernetes 버전 1.18-1.21은 Docker를 기본 런타임으로 사용
+- `kubectl`바이너리 버전은 1.22.6 설치
+- 추가로 바이너리에 실행권한을 적용, 자동완성을 설치
+```sh
+cd ~
+curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.22.6/bin/linux/amd64/kubectl
+chmod +x ./kubectl
+sudo mv ./kubectl /usr/local/bin/kubectl
+source <(kubectl completion bash)
+echo "source <(kubectl completion bash)" >> ~/.bashrc
+kubectl version --short --client
+```
+
+
+### 기타 유틸리티 설치
+- GNU gettext, jq, bash 자동완성등을 설치
+```sh
+sudo yum -y install jq gettext bash-completion moreutils
+for command in kubectl jq envsubst aws
+  do
+    which $command &>/dev/null && echo "$command in path" || echo "$command NOT FOUND"
+  done
+```
+- k9s는 쿠버네티스 클러스터와 상호작용을 통해 직관적인 UI 터미널을 제공
+- 참조 : https://github.com/derailed/k9s
+```sh
+K9S_VERSION=v0.26.7
+curl -sL https://github.com/derailed/k9s/releases/download/${K9S_VERSION}/k9s_Linux_x86_64.tar.gz | sudo tar xfz - -C /usr/local/bin 
+```
+- 실행은 `k9s`를 입력하고 엔터
