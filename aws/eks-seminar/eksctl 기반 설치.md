@@ -387,4 +387,16 @@ kind: ConfigMap
 - 콘솔에서 생성한 클러스터 선택
 - 컴퓨팅탭을 선택하고 생성된 WokerNode들을 확인
 ![[Pasted image 20230419095243.png]]
-- K
+- Kubernetes의 Resource들을 선택하고 확인
+![[Pasted image 20230419095341.png]]
+- `kubectl`명령을 통해서도 확인 가능
+```sh
+#kube-system namespace에 생성된 자원 확인 
+kubectl -n kube-system get all
+
+#주요 Pod의 상세 정보 확인 
+kubectl -n kube-system pods <pod-name> -o wide
+
+# node 상세 정보 확인 
+kubectl get nodes -o wide
+```
