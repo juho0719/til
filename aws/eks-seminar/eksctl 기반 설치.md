@@ -286,4 +286,105 @@ ip-10-11-90-157.ap-northeast-2.compute.internal Ready <none> 5m30s v1.22.15-eks-
 - 다음과 같은 구성도 완성
 ![[Pasted image 20230419094302.png]]
 
-####
+#### 6. EKS 구성 확인
+- EKS 콘솔을 통해 생성된 EKS Cluster를 확인할 수 있음
+- 유저 권한이 없을 경우 Cloud9에서 추가
+
+##### configmap 인증 정보 수정
+- Cloud9 터미널에 `kubectl`명령을 통해 aws-auth 파일을 확인
+```sh
+kubectl get configmap -n kube-system aws-auth -o yaml
+```
+```
+apiVersion: v1
+data:
+  mapRoles: |
+    - groups:
+      - system:bootstrappers
+      - system:nodes
+      rolearn: arn:aws:iam::277828472567:role/eksctl-eksworkshop-nodegroup-mana-NodeInstanceRole-KBNN6VOZRBON
+      username: system:node:{{EC2PrivateDNSName}}
+    - groups:
+      - system:bootstrappers
+      - system:nodes
+      rolearn: arn:aws:iam::277828472567:role/eksctl-eksworkshop-nodegroup-mana-NodeInstanceRole-8HVX716IUG6H
+      username: system:node:{{EC2PrivateDNSName}}
+    - groups:
+      - system:bootstrappers
+      - system:nodes
+      rolearn: arn:aws:iam::277828472567:role/eksctl-eksworkshop-nodegroup-ng-p-NodeInstanceRole-1GZXTMDGOWYF2
+      username: system:node:{{EC2PrivateDNSName}}
+    - groups:
+      - system:bootstrappers
+      - system:nodes
+      rolearn: arn:aws:iam::277828472567:role/eksctl-eksworkshop-nodegroup-ng-p-NodeInstanceRole-1IJ72XYIRPHTK
+      username: system:node:{{EC2PrivateDNSName}}
+  mapUsers: []
+kind: ConfigMap
+metadata:
+  annotations:
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"v1","data":{"mapRoles":"- groups:\n  - system:bootstrappers\n  - system:nodes\n  rolearn: arn:aws:iam::277828472567:role/eksctl-eksworkshop-nodegroup-mana-NodeInstanceRole-KBNN6VOZRBON\n  username: system:node:{{EC2PrivateDNSName}}\n- groups:\n  - system:bootstrappers\n  - system:nodes\n  rolearn: arn:aws:iam::277828472567:role/eksctl-eksworkshop-nodegroup-mana-NodeInstanceRole-8HVX716IUG6H\n  username: system:node:{{EC2PrivateDNSName}}\n- groups:\n  - system:bootstrappers\n  - system:nodes\n  rolearn: arn:aws:iam::277828472567:role/eksctl-eksworkshop-nodegroup-ng-p-NodeInstanceRole-1GZXTMDGOWYF2\n  username: system:node:{{EC2PrivateDNSName}}\n- groups:\n  - system:bootstrappers\n  - system:nodes\n  rolearn: arn:aws:iam::277828472567:role/eksctl-eksworkshop-nodegroup-ng-p-NodeInstanceRole-1IJ72XYIRPHTK\n  username: system:node:{{EC2PrivateDNSName}}\n","mapUsers":"- userarn: arn:aws:iam::277828472567:user/juho\n  username: juho\n  groups:\n    - system:masters\n"},"kind":"ConfigMap","metadata":{"annotations":{},"name":"aws-auth","namespace":"kube-system"}}
+  creationTimestamp: "2023-04-17T02:47:01Z"
+  name: aws-auth
+  namespace: kube-system
+  resourceVersion: "30651"
+  uid: 44c04fd5-4726-4048-a555-69cbcc1a05d6
+```
+
+- aws-auth.yaml파일을 아래 디렉토리에 생성
+```sh
+kubectl get configmap -n kube-system aws-auth -o yaml | grep -v "creationTimestamp\|resourceVersion\|selfLink\|uid" | sed '/^  annotations:/,+2 d' > ~/environment/aws-auth.yaml
+cp ~/environment/aws-auth.yaml ~/environment/aws-auth_backup.yaml
+```
+- ~/environment/aws-auth.yaml파일을 열고 아래 값을 입력
+```sh
+  mapUsers: |
+    - userarn: arn:aws:iam::277828472567:user/juho
+      username: juho
+      groups:
+        - system:masters
+```
+- user arn값은 account id, 이미 Shell 환경변수에 저장해 둠
+```
+echo $ACCOUNT_ID
+```
+- 아래 새로운 사용자 권한을 mapRoles뒤에 추가
+```sh
+apiVersion: v1
+data:
+  mapRoles: |
+    - groups:
+      - system:bootstrappers
+      - system:nodes
+      rolearn: arn:aws:iam::277828472567:role/eksctl-eksworkshop-nodegroup-mana-NodeInstanceRole-KBNN6VOZRBON
+      username: system:node:{{EC2PrivateDNSName}}
+    - groups:
+      - system:bootstrappers
+      - system:nodes
+      rolearn: arn:aws:iam::277828472567:role/eksctl-eksworkshop-nodegroup-mana-NodeInstanceRole-8HVX716IUG6H
+      username: system:node:{{EC2PrivateDNSName}}
+    - groups:
+      - system:bootstrappers
+      - system:nodes
+      rolearn: arn:aws:iam::277828472567:role/eksctl-eksworkshop-nodegroup-ng-p-NodeInstanceRole-1GZXTMDGOWYF2
+      username: system:node:{{EC2PrivateDNSName}}
+    - groups:
+      - system:bootstrappers
+      - system:nodes
+      rolearn: arn:aws:iam::277828472567:role/eksctl-eksworkshop-nodegroup-ng-p-NodeInstanceRole-1IJ72XYIRPHTK
+      username: system:node:{{EC2PrivateDNSName}}
+  mapUsers: |
+    - userarn: arn:aws:iam::277828472567:user/juho
+      username: juho
+      groups:
+        - system:masters
+kind: ConfigMap
+.....
+```
+
+##### EKS Cluster 결과 확인
+- 콘솔에서 생성한 클러스터 선택
+- 컴퓨팅탭을 선택하고 생성된 WokerNode들을 확인
+![[Pasted image 20230419095243.png]]
+- K
