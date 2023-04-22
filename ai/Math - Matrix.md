@@ -138,6 +138,7 @@ matrix_A - matrix_B:
  [6 8]]
 ```
 
+
 ### 행렬 곱셈
 - 스칼라와 행렬과의 곱셈과는 달리 행렬 곱은 특수한 형태로 정의
 
@@ -203,3 +204,89 @@ a_{2,1}x_{1,1}+a_{2,2}x_{2,1} & a_{1,1}x_{1,2}+a_{1,2}x_{2,2}
 - **교환 법칙**: $AB \neq BA$
 
 ##### <예제 3> 행렬 곱셈
+- 행렬의 곱을 수행하기 위해서는 `dot`또는 `matmul`함수를 사용
+- 두 함수는 3차원 이상의 배열에서 계산은 다르지만, 1차원 배열인 벡터와 2차원 배열인 행렬을 다루는 곱에서는 같은 결과물을 출력
+- `matmul(A,B) = dot(A,B) = AB` : A와 B는 행렬 곱의 크기 조건을 만족하는 두 행렬 또는 행렬과 벡터
+```python
+matrix_A = np.array([[1, 2],[-1, -2]])
+matrix_B = np.array([[1, 1],[2, 2]])
+
+print('행렬 곱 셈 AB =')
+print(np.dot(matrix_A,matrix_B))
+print(np.matmul(matrix_A,matrix_B))
+
+print('\n행렬 곱셈 BA =')
+print(np.dot(matrix_B,matrix_A))
+print(np.matmul(matrix_B,matrix_A))
+```
+```
+행렬 곱 셈 AB =
+[[ 5  5]
+ [-5 -5]]
+[[ 5  5]
+ [-5 -5]]
+
+행렬 곱셈 BA =
+[[0 0]
+ [0 0]]
+[[0 0]
+ [0 0]]
+```
+
+
+### 특수 행렬
+- 영행렬(Zero matrix or Null matrix)은 모든 원소의 값이 0인 행렬
+- 영행렬은 행렬 덧셈의 항등원(임의의 수 a에 대하여 어떤 수를 연산했을 때 처음의 수 a가 되게 하여 주는 수)
+- 행렬 A와 같은 크기의 영행렬 O가 있다면 A + O = O + A = A를 만족
+
+##### 영행렬 덧셈
+$$\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \end{bmatrix} + \begin{bmatrix} 0 & 0 \\\\ 0 & 0 \end{bmatrix} = \begin{bmatrix} 1 & 2 \\\\ 3 & 4 \end{bmatrix} $$
+
+##### <예제 4> 영행렬 덧셈
+```python
+null_matrix = np.zeros((2,2))
+print("O : \n{}\n".format(null_matrix))
+
+print("A + O = \n{}\n".format(matrix_A + null_matrix))
+print("O + A = \n{}\n".format(null_matrix + matrix_A))
+```
+```
+O : 
+[[0. 0.]
+ [0. 0.]]
+
+A + O = 
+[[ 1.  2.]
+ [-1. -2.]]
+
+O + A = 
+[[ 1.  2.]
+ [-1. -2.]]
+```
+
+- 단위행렬(Identity matrix) : 정사각행렬 중에서 행 번호와 열 번호가 같은 위치의 값은 1이고, 나머지는 0을 가지는 행렬
+- 단위행렬은 행렬 곱셈에 대한 항등원
+- 행렬 A와 같은 크기의 단위행렬 I가 있다면 $A \cdot I=I \cdot A=A$를 만족
+
+##### <예제 5> 단위행렬 곱셈
+```python
+identity_matrix = np.eye(2)
+print("I : \n{}\n".format(identity_matrix))
+
+print("A * I = \n{}\n".format(matrix_A + identity_matrix))
+print("I * A = \n{}\n".format(identity_matrix + matrix_A))
+```
+```
+I : 
+[[1. 0.]
+ [0. 1.]]
+
+A * I = 
+[[ 2.  2.]
+ [-1. -1.]]
+
+I * A = 
+[[ 2.  2.]
+ [-1. -1.]]
+```
+
