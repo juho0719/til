@@ -64,67 +64,42 @@ def kmeans(X, num_clusters, initial_centroid_indices):
 		으로 합니다.
 		'''
 		for k in range(num_clusters):
-x = X[labels == k][:,0]
-y = X[labels == k][:,1]
+			x = X[labels == k][:,0]
+			y = X[labels == k][:,1]
+			
+			x = np.mean(x)
+			y = np.mean(y)
+			centroids[k] = [x, y]
 
-x = np.mean(x)
-y = np.mean(y)
-centroids[k] = [x, y]
+		'''
+		Step 3. 만약 클러스터의 할당이 바뀌지 않았다면 알고리즘을 끝냅니다.
+		아니라면 다시 반복합니다.
+		'''
+		if not is_changed:
+			break;
 
-'''
-Step 3. 만약 클러스터의 할당이 바뀌지 않았다면 알고리즘을 끝냅니다.
-
-아니라면 다시 반복합니다.
-
-'''
-
-if not is_changed:
-
-break;
+	return labels
 
   
-
-return labels
-
-  
-
 def distance(x1, x2):
-
-return np.sqrt(np.sum((x1 - x2) ** 2))
+	return np.sqrt(np.sum((x1 - x2) ** 2))
 
 def normalize(X):
-
-for dim in range(len(X[0])):
-
-X[:, dim] -= np.min(X[:, dim])
-
-X[:, dim] /= np.max(X[:, dim])
-
-return X
-
-  
+	for dim in range(len(X[0])):
+		X[:, dim] -= np.min(X[:, dim])
+		X[:, dim] /= np.max(X[:, dim])
+	
+	return X
 
 '''
-
 이전에 더해, 각각의 데이터 포인트에 색을 입히는 과정도 진행합니다.
-
 '''
-
-  
-
 def visualize_2d_wine(X, labels):
+	plt.figure(figsize=(10, 6))
+	plt.scatter(X[:,0], X[:,1], c=labels)
+	plt.savefig("image.svg", format="svg")
 
-plt.figure(figsize=(10, 6))
-
-plt.scatter(X[:,0], X[:,1], c=labels)
-
-plt.savefig("image.svg", format="svg")
-
-elice_utils.send_image("image.svg")
-
-  
 
 if __name__ == '__main__':
-
-main()
+	main()
 ```
