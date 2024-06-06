@@ -170,3 +170,55 @@ In conclusion, remaking an old model can be a good thing if done right. It can b
 • **영어**: In conclusion, remaking an old model can be a good thing if done right. It can bring in more customers, save money, and keep the brand fresh. Careful planning and attention to quality are important to make it work well.
 
 • **해석**: 결론적으로, 오래된 모델을 다시 만드는 것은 올바르게 수행되면 좋은 일이 될 수 있습니다. 더 많은 고객을 끌어들이고 비용을 절감하며 브랜드를 신선하게 유지할 수 있습니다. 성공적인 리메이크를 위해 신중한 계획과 품질에 대한 주의가 중요합니다.
+
+
+
+#### Discussion 1. What  are the do's and don'ts of sharing an opinion?
+
+**Do’s:**
+1. **Be respectful:** Always show respect for other people’s opinions, even if you don’t agree.
+2. **Be clear and simple:** Say your opinion clearly and in a way that is easy to understand.
+3. **Listen well:** Pay attention when others speak and acknowledge their points.
+4. **Give reasons:** Explain why you think that way. It helps others understand your point better.
+5. **Be open-minded:** Be ready to listen to different ideas and change your mind if needed.
+
+
+**Don’ts:**
+1. **Don’t interrupt:** Let others finish speaking before you talk.
+2. **Don’t be rude:** Share your opinion calmly and don’t get angry or confrontational.
+3. **Don’t ignore others’ opinions:** Even if you disagree, don’t dismiss what others say.
+4. **Don’t make it personal:** Focus on the topic, not on criticizing the person.
+5. **Don’t think you’re always right:** Understand that your opinion is just one of many, and others may have good points too.
+
+**해야 할 것들:**
+1. **존중하기:** 다른 사람의 의견을 존중하세요, 비록 동의하지 않더라도.
+2. **명확하고 간단하게 말하기:** 내 의견을 명확하고 이해하기 쉽게 말하세요.
+3. **잘 듣기:** 다른 사람들이 이야기할 때 주의 깊게 듣고, 그들의 요점을 인정하세요.
+4. **이유 설명하기:** 왜 그렇게 생각하는지 설명하세요. 이는 다른 사람들이 당신의 요점을 더 잘 이해하도록 도와줍니다.
+5. **열린 마음 가지기:** 다른 아이디어를 들을 준비를 하고, 필요하면 내 의견을 바꿀 준비도 하세요.
+
+
+**하지 말아야 할 것들:**
+1. **말 끊지 않기:** 다른 사람이 말할 때 끝까지 듣고, 그 후에 이야기하세요.
+2. **무례하지 않기:** 내 의견을 차분하게 나누고, 화를 내거나 대립하지 마세요.
+3. **다른 사람의 의견 무시하지 않기:** 동의하지 않더라도, 다른 사람들이 말하는 것을 무시하지 마세요.
+4. **개인적인 공격 하지 않기:** 주제에 집중하고, 사람을 비판하지 마세요.
+5. **항상 내가 맞다고 생각하지 않기:** 내 의견이 많은 의견 중 하나일 뿐이라는 것을 이해하고, 다른 사람들도 좋은 요점을 가질 수 있다는 것을 인식하세요.
+
+
+
+#### Discussion 2. Do you feel comfortable sharing your own opinion during a meeting?
+
+**긍정적 대답**
+
+Yes, I feel comfortable sharing my opinion during a meeting. I think it’s important to share different ideas because it helps us find better solutions. In meetings, I try to speak clearly and respectfully. I feel more confident when I prepare well and know what the meeting is about. I also appreciate when my coworkers listen to different opinions. This makes me feel encouraged to share my thoughts. Overall, I believe speaking up in meetings helps me grow personally and professionally.
+
+네, 저는 회의 중에 제 의견을 공유하는 것이 편안합니다. 다양한 아이디어를 공유하는 것이 더 나은 해결책을 찾는 데 중요하다고 생각합니다. 회의에서 저는 명확하고 존중 있게 말하려고 노력합니다. 잘 준비하고 회의 주제를 알면 더 자신감이 생깁니다. 제 동료들이 다양한 의견을 들을 때도 고맙게 생각합니다. 이것은 제가 제 생각을 공유하도록 격려해줍니다. 전반적으로, 회의에서 말하는 것이 개인적으로나 직업적으로 성장하는 데 도움이 된다고 믿습니다.
+
+
+**부정적 대답**
+
+No, I don’t always feel comfortable sharing my opinion during a meeting. Sometimes, I worry that my ideas might not be accepted or that I might say something wrong. This makes it hard for me to speak up, especially in big meetings. I also feel that my opinion might not be valued. But I am trying to be more confident and find ways to express my thoughts better. I think having a more open and supportive meeting environment can help me and others feel more comfortable sharing our opinions.
+
+아니요, 저는 항상 회의 중에 제 의견을 공유하는 것이 편하지는 않습니다. 때때로 제 아이디어가 받아들여지지 않거나 제가 틀린 말을 할까봐 걱정됩니다. 이것은 특히 큰 회의에서 말하는 것을 어렵게 만듭니다. 또한, 제 의견이 가치 있게 받아들여지지 않을 것 같다고 느낍니다. 하지만 저는 더 자신감을 갖고 제 생각을 더 잘 표현하는 방법을 찾으려고 노력하고 있습니다. 더 개방적이고 지원적인 회의 환경이 저와 다른 사람들이 의견을 더 편안하게 공유할 수 있도록 도울 것이라고 생각합니다.
+  
