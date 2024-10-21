@@ -15,8 +15,25 @@ I went to go to the hospital for 주사 맞으러
 I go to the hospital before take a shower. Because I didn't take a shower after I take a 주사.
 Originally, I think I take a 주사, So I didn't feel scare.
 Afternoon, I worked delay task.
+I want to finish payment approval part, but I didn't finish that. Because I took task in KiaCPO question.
 
-## 영어 part 2 (수정)
-
+## 영어 part 2 (ChatGPT)
+Today is the day to get my flu shot.
+Since it’s a work-from-home day, I went to a nearby clinic during lunch to get the shot.
+Since I can't shower anymore today after getting the shot, I took one before going.
+I've always been good at getting shots, so I wasn’t particularly scared or nervous.
+In the afternoon, I worked on tasks that had piled up.
+I tried to finish the approval process, but I couldn’t because I had to handle some inquiries from the Kia CPO team.
+It felt like an unproductive day because I couldn’t finish my work properly.
 
 ## 알게 된 것
+
+- to get : 미래의도를 나타내는 부정사
+- Since : 이유를 나타내는 접속사
+	- it's work-from-home day의 이유가 됨
+- 원래부터 주사를 잘 맞는 편이라 -> 과거부터 현재까지의 상태를 나타내므로 현재완료 시제를 사용해야 함
+	- I have always been good at getting shots,
+- pile up : 시간이 흐르면서 점점 쌓이는 것을 뜻함.
+	- 과거의 특정 시점까지 쌓여있는 업무이므로 과거 완료 시제를 사용
+	- tasks that had piled up
+- 
