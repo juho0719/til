@@ -36,4 +36,4 @@ It felt like an unproductive day because I couldn’t finish my work properly.
 - pile up : 시간이 흐르면서 점점 쌓이는 것을 뜻함.
 	- 과거의 특정 시점까지 쌓여있는 업무이므로 과거 완료 시제를 사용
 	- tasks that had piled up
-- 
+- properly : 적절하게, 제대로
