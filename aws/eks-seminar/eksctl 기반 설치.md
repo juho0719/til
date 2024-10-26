@@ -3,7 +3,7 @@
 - `eksctl`은 관리형 Kubernetes 서비스인 EKS에서 클러스터를 생성하기 위한 간단한 CLI 도구
 - Go로 작성, Cloudformation을 사용하고 Weaveworks가 작성했으며 하나의 명령으로 몇 분안에 기본 클러스터를 만듦
 - EKS를 구성하기 위한 도구이며, EKS UI, CDK, Terraform, Rancher 등 다양한 도구로도 구성 가능
-[[인증-자격증명 및 환경 구성]]
+
 ### eksctl을 통한 EKS 구성
 
 #### 1. eksctl 설치
